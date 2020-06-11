@@ -65,6 +65,7 @@
     color: var(--tertiary);
     font-size: 2.4rem;
     padding: 20px;
+    margin-top:20px;
     border-top: 5px solid var(--primary);
   }
   
@@ -202,6 +203,11 @@
     border-color: #888;
   }
   
+  main {
+    display:flex;
+    flex-wrap: wrap;
+  }
+
   .select-dropdown:focus,
   .select-status:focus {
     border-color: #aaa;
